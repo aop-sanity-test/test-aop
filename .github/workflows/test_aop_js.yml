@@ -1,0 +1,15 @@
+name: 'AOP-test-TS-action'
+on: # rebuild any PRs and main branch changes
+  workflow_dispatch:
+  workflow_call:
+
+jobs:
+  build: # make sure build/ci work properly
+    runs-on: ubuntu-latest
+    steps:
+       - name: Checkout
+         uses: actions/checkout@v3
+       - name: Ts Action
+         uses: actions-on-packages/typescript-action@v1
+         with:
+              milliseconds : 1000
