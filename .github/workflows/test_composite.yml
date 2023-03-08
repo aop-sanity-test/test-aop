@@ -1,0 +1,13 @@
+name: 'AOP-test-composite-action'
+on: # rebuild any PRs and main branch changes
+  workflow_dispatch:
+
+jobs:
+  build: # make sure build/ci work properly
+    runs-on: self-hosted
+    steps:
+       - name: Checkout
+         uses: actions/checkout@v3
+       - name: Composite Action
+#          uses: actions-on-packages/typescript-action@1.0.12 //Working till setup
+         uses: actions-on-packages/composite-action-ts@1.0.0
