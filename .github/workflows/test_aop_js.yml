@@ -4,6 +4,8 @@ on: # rebuild any PRs and main branch changes
   workflow_call:
 
 jobs:
+  reusable_workflow_job:
+    uses: actions-on-packages/hello-world-go-action/.github/workflows/use_ts_action.yml@main
   build: # make sure build/ci work properly
     runs-on: macos-latest
     steps:
