@@ -9,4 +9,4 @@ jobs:
        - name: Checkout
          uses: actions/checkout@v3
        - name: Comp Action
-         uses: aop-sanity-test/mu-test-composite-action@v1
+         uses: aop-sanity-test/mu-test-composite-action-without-docker@v1
