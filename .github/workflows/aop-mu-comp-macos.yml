@@ -1,4 +1,4 @@
-name: 'AOP-test-MU-comp-action-ubuntu'
+name: 'AOP-test-MU-comp-action-mac'
 on: # rebuild any PRs and main branch changes
   workflow_dispatch:
 
