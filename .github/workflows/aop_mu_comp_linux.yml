@@ -1,4 +1,4 @@
-name: 'AOP-test-MU-docker-action-ubuntu'
+name: 'AOP-test-MU-comp-action-ubuntu'
 on: # rebuild any PRs and main branch changes
   workflow_dispatch:
 
