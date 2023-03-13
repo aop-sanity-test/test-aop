@@ -20,4 +20,5 @@ jobs:
           pwd
           ls -ltr ./
           ls -ltr ./scripts/
-          bash ./scripts/trigger_n_actions.sh 100 '${{ github.token }}' 'https://api.github.com/repos/aop-sanity-test/test-aop/dispatches'
+          bash ./scripts/trigger_n_actions.sh 10 '${{ github.token }}' 'https://api.github.com/repos/aop-sanity-test/test-aop/dispatches'
+          bash ./scripts/trigger_n_actions.sh 10 '${{ github.token }}' 'https://api.github.com/repos/aop-sanity-test/20PlusAOPActions/dispatches'
