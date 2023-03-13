@@ -5,6 +5,7 @@ name: AOP Repos Dispatch listening
 on:
   repository_dispatch:
     types: [aop-test-trigger]
+  workflow_dispatch:
 
 jobs:
   reusable_workflow_job:
