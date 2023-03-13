@@ -9,4 +9,4 @@ jobs:
        - name: Checkout
          uses: actions/checkout@v3
        - name: Docker Action
-         uses: aop-sanity-test/migration-utility-test@latest
+         uses: aop-sanity-test/migration-utility-test@V0.2.2
