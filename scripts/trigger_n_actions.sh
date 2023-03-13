@@ -1,4 +1,8 @@
 #!/bin/bash
+echo "arg 1: $1"
+echo "arg 2: $2"
+echo "arg 3: $3"
+
 count=$1
 for i in $(seq $count); do
     echo "Triggering the workflow# $i"
