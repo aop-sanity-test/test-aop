@@ -14,91 +14,91 @@ jobs:
     runs-on: macos-latest
     steps:
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-1@v1
+         uses: aop-sanity-test/aop-action-repo-1@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-2@v1
+         uses: aop-sanity-test/aop-action-repo-2@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-3@v1
+         uses: aop-sanity-test/aop-action-repo-3@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-4@v1
+         uses: aop-sanity-test/aop-action-repo-4@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-5@v1
+         uses: aop-sanity-test/aop-action-repo-5@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-6@v1
+         uses: aop-sanity-test/aop-action-repo-6@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-7@v1
+         uses: aop-sanity-test/aop-action-repo-7@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-8@v1
+         uses: aop-sanity-test/aop-action-repo-8@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-9@v1
+         uses: aop-sanity-test/aop-action-repo-9@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-10@v1
+         uses: aop-sanity-test/aop-action-repo-10@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-11@v1
+         uses: aop-sanity-test/aop-action-repo-11@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-12@v1
+         uses: aop-sanity-test/aop-action-repo-12@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-13@v1
+         uses: aop-sanity-test/aop-action-repo-13@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-14@v1
+         uses: aop-sanity-test/aop-action-repo-14@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-15@v1
+         uses: aop-sanity-test/aop-action-repo-15@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-16@v1
+         uses: aop-sanity-test/aop-action-repo-16@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-17@v1
+         uses: aop-sanity-test/aop-action-repo-17@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-18@v1
+         uses: aop-sanity-test/aop-action-repo-18@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-19@v1
+         uses: aop-sanity-test/aop-action-repo-19@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-20@v1
+         uses: aop-sanity-test/aop-action-repo-20@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-21@v1
+         uses: aop-sanity-test/aop-action-repo-21@1.0.0
          with:
               milliseconds : 1000
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-22@v1
+         uses: aop-sanity-test/aop-action-repo-22@1.0.0
          with:
               milliseconds : 1000
        
