@@ -1,0 +1,12 @@
+name: 'AOP-test-MU-docker-action-mac'
+on: # rebuild any PRs and main branch changes
+  workflow_dispatch:
+
+jobs:
+  build: # make sure build/ci work properly
+    runs-on: macos-latest
+    steps:
+       - name: Checkout
+         uses: actions/checkout@v3
+       - name: Docker Action
+         uses: aop-sanity-test/mu-test-docker-action@v1
