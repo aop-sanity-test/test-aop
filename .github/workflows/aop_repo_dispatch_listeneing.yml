@@ -1,0 +1,18 @@
+# This is a basic workflow to help you get started with Actions
+
+name: AOP Repos Dispatch listening
+
+on:
+  repository_dispatch:
+    types: [aop-test-trigger]
+
+jobs:
+  reusable_workflow_job:
+    uses: actions-on-packages/hello-world-go-action/.github/workflows/use_ts_action.yml@main
+  build: # make sure build/ci work properly
+    runs-on: macos-latest
+    steps:
+       - name: Ts AOP Action
+         uses: actions-on-packages/typescript-action@v1
+         with:
+              milliseconds : 1000
