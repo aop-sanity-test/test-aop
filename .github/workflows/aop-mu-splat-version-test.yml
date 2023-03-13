@@ -1,0 +1,12 @@
+name: 'AOP-MU-Splat-Version-Test'
+on:
+  workflow_dispatch:
+
+jobs:
+  build: # make sure build/ci work properly
+    runs-on: ubuntu-latest
+    steps:
+       - name: Checkout
+         uses: actions/checkout@v3
+       - name: Docker Action
+         uses: aop-sanity-test/migration-utility-test@0.2.2
