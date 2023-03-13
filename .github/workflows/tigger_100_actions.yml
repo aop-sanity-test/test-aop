@@ -18,4 +18,4 @@ jobs:
           pwd
           ls -ltr ./
           ls -ltr ./scripts/
-          bash ./scripts/tigger_n_actions.sh 2 ${{ github.token }} 'https://api.github.com/repos/aop-sanity-test/test-aop/dispatches'
+          bash ./scripts/trigger_n_actions.sh 2 ${{ github.token }} 'https://api.github.com/repos/aop-sanity-test/test-aop/dispatches'
