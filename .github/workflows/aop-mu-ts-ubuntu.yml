@@ -8,5 +8,7 @@ jobs:
     steps:
        - name: Checkout
          uses: actions/checkout@v3
-       - name: Docker Action
+       - name: TS Action
          uses: aop-sanity-test/mu-test-ts-action@v1
+         with:
+            milliseconds: 1000
