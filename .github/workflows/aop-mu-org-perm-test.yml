@@ -9,4 +9,4 @@ jobs:
        - name: Checkout
          uses: actions/checkout@v3
        - name: Docker Action
-         uses: ghec-test-org/mu-org-perm-private@0.0.1
+         uses: ghec-test-org/mu-org-perm-public@0.0.1
